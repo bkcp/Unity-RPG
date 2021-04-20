@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6690815831204334973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6690815831204334972}
+  - component: {fileID: 6690815831204334975}
+  m_Layer: 0
+  m_Name: 'Player 2 Stat '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6690815831204334972
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6690815831204334973}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.8651428, y: -0.24932098, z: 0.007166824}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6690815832168642735}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6690815831204334975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6690815831204334973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a697f37a7df3646808171377d6a7db0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Barkley
+  playerLevel: 3
+  currentEXP: 543
+  expToNextLevel: 
+  maxLevel: 100
+  baseEXP: 1000
+  currentHP: 0
+  maxHP: 150
+  currentMP: 0
+  maxMP: 25
+  mpLvlBonus: 000000000a00000000000000000000000f0000000000000000000000140000000000000000000000000000001e000000000000000000000000000000240000000000000000000000000000002e0000000000000000000000000000000000000018000000000000000000000000000000000000002f0000000000000000000000000000003f000000000000000000000000000000000000000000000018000000000000000000000000000000000000004100000000000000000000000000000000000000000000000000000000000000000000002e0000000000000023000000000000000000000000000000000000000c000000000000000000000000000000000000001800000000000000000000000c000000000000000000000000000000000000001800000000000000000000000000000000000000170000000000000000000000000000000c0000000000000000000000000000000c0000000000000000000000000000001500000000000000000000000c00000000000000000000000c000000000000000000000064000000
+  strength: 22
+  defence: 16
+  wpnPwr: 0
+  armrPwr: 0
+  equippedWpn: 
+  equippedArmr: 
+  charImg: {fileID: 21300000, guid: e0ddba6d3fcf21f49949fcc95c849aac, type: 3}
+--- !u!1 &6690815831796065383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6690815831796065377}
+  - component: {fileID: 6690815831796065382}
+  m_Layer: 0
+  m_Name: 'Player 3 Stat '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6690815831796065377
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6690815831796065383}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.8651428, y: -0.24932098, z: 0.007166824}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6690815832168642735}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6690815831796065382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6690815831796065383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a697f37a7df3646808171377d6a7db0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Simpy
+  playerLevel: 3
+  currentEXP: 543
+  expToNextLevel: 
+  maxLevel: 100
+  baseEXP: 1000
+  currentHP: 0
+  maxHP: 150
+  currentMP: 0
+  maxMP: 25
+  mpLvlBonus: 000000000a00000000000000000000000f0000000000000000000000140000000000000000000000000000001e000000000000000000000000000000240000000000000000000000000000002e0000000000000000000000000000000000000018000000000000000000000000000000000000002f0000000000000000000000000000003f000000000000000000000000000000000000000000000018000000000000000000000000000000000000004100000000000000000000000000000000000000000000000000000000000000000000002e0000000000000023000000000000000000000000000000000000000c000000000000000000000000000000000000001800000000000000000000000c000000000000000000000000000000000000001800000000000000000000000000000000000000170000000000000000000000000000000c0000000000000000000000000000000c0000000000000000000000000000001500000000000000000000000c00000000000000000000000c000000000000000000000064000000
+  strength: 22
+  defence: 16
+  wpnPwr: 0
+  armrPwr: 0
+  equippedWpn: 
+  equippedArmr: 
+  charImg: {fileID: 21300000, guid: e0ddba6d3fcf21f49949fcc95c849aac, type: 3}
+--- !u!1 &6690815832168642733
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6690815832168642735}
+  - component: {fileID: 6690815832168642732}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6690815832168642735
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6690815832168642733}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 363.36514, y: 72.592415, z: -0.007166824}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6690815832518942736}
+  - {fileID: 6690815831204334972}
+  - {fileID: 6690815831796065377}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6690815832168642732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6690815832168642733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf3061d9dd024f299cb179c41b35e51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerStats:
+  - {fileID: 6690815832518942737}
+  - {fileID: 6690815831204334975}
+  - {fileID: 6690815831796065382}
+  gameMenuOpen: 0
+  dialogActive: 0
+  fadingBetweenAreas: 0
+  itemsHeld: []
+  numberOfItems: 
+  referenceItems:
+  - {fileID: 4953956567105571586, guid: 05c884069481b4dc08ed051b4214baf1, type: 3}
+  - {fileID: 744801184232037948, guid: d0068065ccc714acf9c5cd57c3aca8df, type: 3}
+  - {fileID: 7654067500616885127, guid: 1aef01002efd74951a4fcfe43fd25291, type: 3}
+  - {fileID: 5831402808519420535, guid: 5107799007eca4103aa37832a54fc5ed, type: 3}
+  - {fileID: 3058368181986930135, guid: 38851c3dcc6524380b9a40050eac3591, type: 3}
+  - {fileID: 1998944241608705515, guid: 6188e6d84e6b345918a2b17c7c43bfbd, type: 3}
+--- !u!1 &6690815832518942742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6690815832518942736}
+  - component: {fileID: 6690815832518942737}
+  m_Layer: 0
+  m_Name: Player 1 Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6690815832518942736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6690815832518942742}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.8651428, y: -0.24932098, z: 0.007166824}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6690815832168642735}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6690815832518942737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6690815832518942742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a697f37a7df3646808171377d6a7db0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Arelius
+  playerLevel: 1
+  currentEXP: 0
+  expToNextLevel: 
+  maxLevel: 100
+  baseEXP: 1000
+  currentHP: 0
+  maxHP: 100
+  currentMP: 0
+  maxMP: 30
+  mpLvlBonus: 000000000a00000000000000000000000f0000000000000000000000140000000000000000000000000000001e000000000000000000000000000000240000000000000000000000000000002e0000000000000000000000000000000000000018000000000000000000000000000000000000002f0000000000000000000000000000003f000000000000000000000000000000000000000000000018000000000000000000000000000000000000004100000000000000000000000000000000000000000000000000000000000000000000002e0000000000000023000000000000000000000000000000000000000c000000000000000000000000000000000000001800000000000000000000000c000000000000000000000000000000000000001800000000000000000000000000000000000000170000000000000000000000000000000c0000000000000000000000000000000c0000000000000000000000000000001500000000000000000000000c00000000000000000000000c000000000000000000000064000000
+  strength: 15
+  defence: 12
+  wpnPwr: 0
+  armrPwr: 0
+  equippedWpn: 
+  equippedArmr: 
+  charImg: {fileID: 7152930139536384079, guid: 736babfd6c9004fe28dcb43be2b5b1ad, type: 3}
