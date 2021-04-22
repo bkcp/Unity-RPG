@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
 
     public string[] itemsHeld;
     public int[] numberOfItems;
-    public Item[] referenceItems; 
+    public Item[] referenceItems;
 
 
     // Start is called before the first frame update
@@ -26,12 +26,13 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(gameMenuOpen || dialogActive || fadingBetweenAreas)
+        if (gameMenuOpen || dialogActive || fadingBetweenAreas)
         {
-            PlayerController.instance.canMove = false; 
-        }else
+            PlayerController.instance.canMove = false;
+        }
+        else
         {
-            PlayerController.instance.canMove = true; 
+            PlayerController.instance.canMove = true;
         }
     }
 
@@ -39,7 +40,7 @@ public class GameManager : MonoBehaviour
     {
         for (int i = 0; i < referenceItems.Length; i++)
         {
-            if(referenceItems[i].itemName == itemToGrab)
+            if (referenceItems[i].itemName == itemToGrab)
             {
                 return referenceItems[i];
             }
@@ -49,5 +50,31 @@ public class GameManager : MonoBehaviour
 
 
         return null;
+    }
+    public void SortItems()
+    {
+        bool itemAfterSpace = true;
+
+        while(itemAfterSpace)
+        {
+
+            itemAfterSpace = false; 
+        for (int i = 0; i < itemsHeld.Length - 1 ; i++)
+        {
+            if (itemsHeld[i] == "")
+            {
+                itemsHeld[i] = itemsHeld[i + 1];
+                itemsHeld[i + 1] = "";
+
+                numberOfItems[i] = numberOfItems[i + 1];
+                numberOfItems[i + 1] = 0;
+                
+                if(itemsHeld[i] != "")
+                {
+                    itemAfterSpace = true;  // 0001000
+                }
+            }
+        }
+        }
     }
 }
